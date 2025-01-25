@@ -1,0 +1,122 @@
+/* About Page Styles */
+
+/* General Styles */
+.about-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 60px 0;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.125rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Mission Section */
+  .mission {
+    padding: 60px 0;
+    background-color: #ffffff;
+  }
+  
+  .mission h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .mission p {
+    font-size: 1.125rem;
+    color: #555;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  /* Values Section */
+  .values {
+    padding: 60px 0;
+    background-color: #f2f2f2;
+  }
+  
+  .values h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .values ul {
+    font-size: 1.125rem;
+    color: #555;
+    margin: 0 auto;
+    list-style-position: inside;
+    max-width: 900px;
+  }
+  
+  .values ul li {
+    margin-bottom: 15px;
+  }
+  
+  /* Team Section */
+  .team {
+    padding: 60px 0;
+    background-color: #ffffff;
+  }
+  
+  .team h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .team-member h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .about h2, .mission h2, .values h2, .team h2 {
+      font-size: 2rem;
+    }
+  
+    .team-member {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .team-member img {
+      width: 120px;
+      height: 120px;
+    }
+  }
+  

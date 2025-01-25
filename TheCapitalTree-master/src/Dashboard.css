@@ -1,0 +1,82 @@
+/* General Dashboard Styles */
+.dashboard {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.dashboard-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.dashboard-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.dashboard-nav {
+  margin-top: 20px;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.nav-link {
+  color: #61dafb;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  color: #21a1f1;
+}
+
+.admin-item {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.admin-card {
+  background-color: #f7f7f7;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.card-description {
+  font-size: 1.125rem;
+  color: #555;
+}
+
+.admin-actions {
+  margin-top: 20px;
+}
+
+.admin-action {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #2196f3;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.admin-action:hover {
+  background-color: #1976d2;
+}

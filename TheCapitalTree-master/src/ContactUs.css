@@ -1,0 +1,76 @@
+/* General Contact Page Styles */
+.contact-page {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Contact Section */
+.contact {
+  padding: 60px 0;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 1.125rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Form Styling */
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white; /* Added white background for clarity */
+  padding: 30px;
+  border-radius: 8px;  /* Slightly more rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;  /* Smooth transition for border color */
+}
+
+/* Input & Textarea Hover Effects */
+.contact form input:focus,
+.contact form textarea:focus {
+  border-color: #2196f3; /* Highlight border on focus */
+  outline: none; /* Remove default focus outline */
+}
+
+/* Submit Button Styling */
+.contact form button {
+  background-color: #2196f3; /* Tailwind blue-500 */
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.contact form button:hover {
+  background-color: #1976d2; /* Tailwind blue-600 */
+}
+
+/* Success Message Styling */
+.contact p.text-green-500 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #4caf50;  /* Tailwind green-500 */
+  margin-top: 20px; /* Space between the form and success message */
+}
